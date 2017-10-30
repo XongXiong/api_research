@@ -1,0 +1,13 @@
+img {
+    height: 550px;
+}
+
+body {
+    background-image: linear-gradient(to left top, black, orange, yellow, orange, black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p {
+    font-size: 20px;
+}

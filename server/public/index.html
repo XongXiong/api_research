@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="vendors/angular.js"></script>
+    <script src="scripts/client.js"></script>
+    <title>Api Research</title>
+</head>
+
+<body ng-app="apiApp" ng-controller="apiController as ac">
+    <img src="http://bligoo.com/media/users/34/1735446/images/public/655146/borutothemovie.jpg" alt="Boruto The Movie">
+    <h1>{{ac.boruto.title}}</h1>
+    <h2>Desciption:</h2>
+    <p>{{ac.boruto.synopsis}}</p>
+    <h2>Aired:</h2>
+    <p>{{ac.boruto.aired}}</p>
+    <h2>Duration:</h2>
+    <p>{{ac.boruto.duration}}</p>
+    <h2>Rating:</h2>
+    <p>{{ac.boruto.rating}}</p>
+</body>
+
+</html>
