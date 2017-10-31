@@ -12,7 +12,7 @@
 </head>
 
 <body ng-app="apiApp" ng-controller="apiController as ac">
-    <img src="http://bligoo.com/media/users/34/1735446/images/public/655146/borutothemovie.jpg" alt="Boruto The Movie">
+    <img src="{{ac.boruto.image}}" alt="Boruto The Movie">
     <h1>{{ac.boruto.title}}</h1>
     <h2>Desciption:</h2>
     <p>{{ac.boruto.synopsis}}</p>
